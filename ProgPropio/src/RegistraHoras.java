@@ -21,7 +21,7 @@ public class RegistraHoras {
         System.out.println("Añade el incremento (en segundos):");
         incremento = sc.nextInt();
 
-        // Convertimos todo a segundos
+        // Convertimos  a segundos
         int totalSegundos = hora * 3600 + minuto * 60 + segundo + incremento;
 
         // Calculamos la nueva hora
